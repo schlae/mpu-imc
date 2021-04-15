@@ -31,12 +31,16 @@ Look for a Roland house part number, and make sure they match.
 2. IC3, the HD6801VD855P, is a custom mask-programmed microcontroller that
 runs the whole show. I have no ROM for this microcontroller.
 Before paying for expensive PC boards, make sure you have these chips first!
-2. **Neither of these boards have been fabricated or tested. Do so at your
-own risk.**
+3. The original (but **NOT** the modded card) has been built and works, see this
+[thread on Vogons](https://www.vogons.org/viewtopic.php?f=62&t=77197). The
+previous revision accidentally swapped pins 26 and 25 on IC3. This has been
+corrected for both the original and the modded card.
 
-For fabrication, use a 2-layer process. I prefer getting a 30-degree edge bevel,
-but that's up to you. Technically you should get hard gold for the edge fingers,
-but that's usually expensive and immersion gold works just fine.
+For fabrication, use a 2-layer process. You must specify a 30-degree edge bevel,
+other angles are probably OK but **do not fab without a bevel at all because
+this may damage your MCA bus connectors!** Technically you should get hard gold
+for the edge fingers, but that's usually expensive and immersion gold works
+just fine.
 
 ## MPU-IMC (Plain)
 
